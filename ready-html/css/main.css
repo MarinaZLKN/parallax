@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #010101;
+    color: white;
+    line-height: 1.55;
+}
+
+.main-header{
+    position: relative;
+}
+
+.layers{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
